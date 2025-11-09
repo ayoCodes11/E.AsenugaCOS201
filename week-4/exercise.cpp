@@ -45,12 +45,12 @@ int main() {
         cout<<"Invalid input";
     }
 
-    cout << "\nWhat is the Course of your choice?";
+    cout << "\nWhat is the Course of your choice?"; 
     cout << "\nEnter 1 for Photography     | 3 Days | ₦10,000";
     cout << "\nEnter 2 for Planting        | 5 Days | ₦8,000";
     cout << "\nEnter 3 for Fish Farming    | 7 Days | ₦15,000";
     cout << "\nEnter 4 for Baking          | 5 Days | ₦13,000";
-    cout << "\nEnter 5 for Public Speaking | 1 Days | ₦5,000\n";
+    cout << "\nEnter 5 for Public Speaking | 1 Days | ₦5,000\n\nCourse : ";
 
     cin>>course;
     
@@ -102,7 +102,7 @@ int main() {
     cout << "\nEnter 2 for Camp House B | ₦2,500 ";
     cout << "\nEnter 3 for Camp House C | ₦5,000 ";
     cout << "\nEnter 4 for Camp House D | ₦13,000 ";
-    cout << "\nEnter 5 for Camp House E | ₦5,000 \n";
+    cout << "\nEnter 5 for Camp House E | ₦5,000 \n\nLocation : ";
 
     cin>>location;
 
@@ -165,6 +165,8 @@ int main() {
     cout<<"\nRegistration : ₦"<<regFee<<" (After ₦"<<regDiscount<<")";
     cout<<"\nLodging: ₦"<<lodgingPerDay*days<<" (After ₦"<<lodgingDiscount<<")";
     cout<<"\nRandom draw : "<<r<<" (Promo applied: ₦"<<promo<<")";
-    cout<<"\nTOTAL : "<<total;
+    cout<<"\nTOTAL : ₦"<<total;
+
+    return 0;
 
 }
